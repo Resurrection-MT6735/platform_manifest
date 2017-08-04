@@ -13,7 +13,7 @@
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="rr" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="rr" />
   <project path="packages/apps/StorageManager" name="android_packages_apps_StorageManager" remote="rr" />
-  <project path="system/sepolicy" name="Resurrection-MT6735/android_system_sepolicy" remote="nougat" />
+  <project path="system/sepolicy" name="Resurrection-MT6735/android_system_sepolicy" remote="github" revision="nougat" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="rr" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="rr" />
   <project path="packages/apps/DUI" name="packages_apps_DUI" remote="rr" />
