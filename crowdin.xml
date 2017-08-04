@@ -11,6 +11,6 @@
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="rr" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="rr" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="rr" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="rr" />
+  <project path="frameworks/base" name="Resurrection-MT6735/android_frameworks_base" remote="github" revision="nougat" />
   <project path="packages/apps/Settings" name="Resurrection_packages_apps_Settings" remote="rr" />
 </manifest>
