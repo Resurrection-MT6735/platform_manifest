@@ -21,10 +21,6 @@
   <remote  name="rr"
 	   fetch="https://github.com/ResurrectionRemix"
 	   revision="nougat" />
-
-  <project path="device/lenovo/al732row" name="Lenovo-VibeB/android_device_lenovo_al732row" remote="github" revision="cm-14.1" />
-  <project path="vendor/lenovo/al732row" name="Lenovo-VibeB/android_vendor_lenovo_al732row" remote="github" revision="cm-14.1" />
-  <project path="kernel/lenovo/al732row" name="Lenovo-VibeB/android_kernel_lenovo_al732row" remote="github" revision="cm-14.1" />
 	
   <!-- AOSP Projects -->
   <project path="build" name="android_build" remote="rr" >
@@ -36,6 +32,9 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="device/lenovo/al732row" name="Lenovo-VibeB/android_device_lenovo_al732row" remote="github" revision="cm-14.1" />
+  <project path="vendor/lenovo/al732row" name="Lenovo-VibeB/android_vendor_lenovo_al732row" remote="github" revision="cm-14.1" />
+  <project path="kernel/lenovo/al732row" name="Lenovo-VibeB/android_kernel_lenovo_al732row" remote="github" revision="cm-14.1" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
   <project path="bionic" name="LineageOS-MT6735/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />
